@@ -1,0 +1,47 @@
+﻿@model IEnumerable<MSAPP.Models.Employee>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h1>List of Employees</h1>
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+
+
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Account" asp-action="CreateRole">CreateRole</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Account" asp-action="ListRoles">List of Role</a>
+        </li>
+    </ul>
+
+</div>
+
+
+<input type="button" value="Add new Employee "
+       onclick="location.href='@Url.Action("Insert","Home")'" />
+<br />
+<br />
+<table border="1" cellpadding="10">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Email</td>
+            <td>@item.Department</td>
+            <td>
+
+                <input type="button" value="Edit"
+                       onclick="location.href='@Url.Action("Update","Home",  new {id = item.Id})'" />
+            </td>
+            <td>
+                <input type="button" value="Delete"
+                       onclick="location.href='@Url.Action("Delete","Home",new { id= item.Id})'" />
+            </td>
+
+        </tr>
+    }
+</table>

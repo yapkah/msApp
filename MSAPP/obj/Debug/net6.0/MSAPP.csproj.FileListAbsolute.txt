@@ -1,0 +1,8 @@
+C:\Users\sheri\OneDrive\Desktop\MSAPP\MSAPP\obj\Debug\net6.0\MSAPP.csproj.AssemblyReference.cache
+C:\Users\sheri\OneDrive\Desktop\MSAPP\MSAPP\obj\Debug\net6.0\MSAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sheri\OneDrive\Desktop\MSAPP\MSAPP\obj\Debug\net6.0\MSAPP.AssemblyInfoInputs.cache
+C:\Users\sheri\OneDrive\Desktop\MSAPP\MSAPP\obj\Debug\net6.0\MSAPP.AssemblyInfo.cs
+C:\Users\sheri\OneDrive\Desktop\MSAPP\MSAPP\obj\Debug\net6.0\MSAPP.csproj.CoreCompileInputs.cache
+C:\Users\sheri\OneDrive\Desktop\MSAPP\MSAPP\obj\Debug\net6.0\MSAPP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sheri\OneDrive\Desktop\MSAPP\MSAPP\obj\Debug\net6.0\MSAPP.RazorAssemblyInfo.cache
+C:\Users\sheri\OneDrive\Desktop\MSAPP\MSAPP\obj\Debug\net6.0\MSAPP.RazorAssemblyInfo.cs
